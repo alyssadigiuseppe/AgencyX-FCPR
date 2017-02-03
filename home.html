@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Forest City Animal Rescue</title>
+<link href="http://fonts.googleapis.com/css?family=Mystery+Quest" rel="stylesheet" type="text/css">
+<!--<link href="css/foundation.css" rel="stylesheet" type="text/css">
+<link href="css/foundation.min.css" rel="stylesheet" type="text/css"> Needed for data interchange that isnt working-->
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1 class="hidden">Forest City Animal Rescue</h1>
+<div id="siteCon"> <!--Start of site Container-->
+		<nav id="mainNav">
+			<h2 class="hidden">Main navigation</h2>
+			<div id="navScreenCenter">
+					<img src="images/forestCity_logo.png" id="logo" alt="Forest City Animal Rescue">
+					<ul>
+						<li id="home" class="pageOne navButtons links">HOME</li>
+						<li id="about" class="pageTwo navButtons links">ABOUT</li>
+						<li id="adopt" class="pageThree navButtons links">ADOPT</li>
+					</ul>
+
+			<ul id="socialIcons">
+					<li>
+						<a href="http://www.twitter.com">
+								<img src="images/icon_twitter.png" class="icons" alt="Twitter icon">
+						</a>
+					</li>
+					<li>
+						<a href="http://www.instagram.com">
+								<img src="images/icon_instagram.png" class="icons" alt="Instagram icon">
+						</a>
+					</li>
+					<li>
+						<a href="http://www.facebook.com">
+								<img src="images/icon_facebook.png" class="icons" alt="Facebook icon">
+						</a>
+					</li>
+			</ul>
+			</div>
+		</nav>
+
+		<section id="mobileNav">
+			<h2 class="hidden">Mobile Navigation</h2>
+			<div id="navMobileBackground">
+			<img src="images/forestCity_logo.png" id="mobileLogo" alt="Forest City Animal Rescue's logo">
+
+			<ul id="socialMobileIcons">
+						<li>
+							<a href="http://www.twitter.com">
+									<img src="images/icon_twitter.png" class="icons" alt="twitter icon">
+							</a>
+						</li>
+						<li>
+							<a href="http://www.instagram.com">
+									<img src="images/icon_instagram.png" class="icons" alt="instagram icon">
+							</a>
+						</li>
+						<li>
+							<a href="http://www.facebook.com">
+									<img src="images/icon_facebook.png" class="icons" alt="facebook icon">
+							</a>
+						</li>
+					</ul>
+					<img src="images/hamMenu.png" id="hamIcon" alt="Mobile Navigation">
+				</div>
+		</section>
+
+		<nav id="navDropdown" class="hidden">
+			<h2 class="hidden">Mobile navigation drop down menu</h2>
+			<p id="home" class="pageOne links">HOME</p>
+			<p id="about" class="pageTwo links">ABOUT</p>
+			<p id="adopt" class="pageThree links">ADOPT</p>
+		</nav>
+
+		<section id="page">
+			<div id="pageCon" class="welcomePage">
+				<h1 class="home">WELCOME!</h1>
+				<p id="paraphrase"></p>
+				<div id="content"> <!-- dynamicContent goes in here -->
+					<img src="images/mainImageDesktop.jpg" id="mainImage" alt="Image of pets">
+					<!--<img data-interchange="[images/mainImage.jpg, small], [images/mainImage.jpg, medium], [images/mainImageDesktop.jpg, large]"  id="mainImage"> * couldn't get to work :(-->
+					<p id="welcomeText">Forest City Pet Rescue is a Rescue and Adoption Agency dedicated to helping less fortunate animals find a loving and healthy environment to call home.</p>
+				</div>
+			</div>
+
+		</section><!-- dynamicContent Finishes -->
+	</div><!--End of site container-->
+	<script src="script/main.js"></script>
+	<script src="script/jsObject.js"></script>
+	<script src="greensock/src/minified/TimelineLite.min.js"></script>
+  <script src="script/TweenMax.min.js"></script>
+	<script src="greensock/src/minified/TweenLite.min.js"></script>
+<!--	<script src="script/jquery.js"></script>
+	<script src="script/foundation.js"></script>
+	<script src="script/foundation.min.js"></script>
+	<script src="script/what-input.js"></script> Needed for data interchange that isn't working-->
+</body>
+</html>
